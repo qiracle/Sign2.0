@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--这里是文本框背景的颜色-->
+    <solid android:color="@color/app_theme_color_Beige" />
+
+    <!-- 描边：这里是边框的颜色和宽度 -->
+    <!--dashWidth和dashGap属性，只要其中一个设置为0dp，则边框为实线边框-->
+    <stroke
+        android:width="8dp"
+        android:color="@color/app_theme_color_Azure"
+        android:dashGap="0dp"
+        android:dashWidth="2dp" />
+    <!--设置边框角落圆弧的半径-->
+    <corners android:radius="1dp" />
+    <!--各方向的间隔-->
+    <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />
+</shape>

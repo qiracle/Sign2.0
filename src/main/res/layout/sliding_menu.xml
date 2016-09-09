@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_color_Beige"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/login_icon_picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="this is a icon picture" />
+
+    <TextView
+        android:id="@+id/tvSign"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="签到"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff1d1d1d"
+        android:textColorHighlight="#7e4d84"
+        android:textColorHint="#ff666666"
+
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/tvModPwd"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="修改密码"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff1d1d1d"
+        android:textColorHighlight="#7e4d84"
+        android:textColorHint="#ff666666"
+
+        android:textSize="16.0sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/tvClass"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="我的课程"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff1d1d1d"
+        android:textColorHighlight="#7e4d84"
+        android:textColorHint="#ff666666"
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="设置"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff1d1d1d"
+        android:textColorHighlight="#7e4d84"
+        android:textColorHint="#ff666666"
+
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+
+    <TextView
+        android:id="@+id/tvExit"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:clickable="true"
+        android:drawablePadding="1.0dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="10.0dip"
+        android:text="退出"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff1d1d1d"
+        android:textColorHighlight="#7e4d84"
+        android:textColorHint="#ff666666"
+
+        android:textSize="16.0sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.0dip"
+        android:background="@drawable/biz_pc_account_line" />
+</LinearLayout>
